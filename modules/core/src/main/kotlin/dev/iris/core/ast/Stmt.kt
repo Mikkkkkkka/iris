@@ -42,4 +42,9 @@ sealed interface Stmt {
     data class Continue(
         override val span: Span? = null
     ) : Stmt
+
+    data class PrintInt(
+        val value: Long,
+        override val span: Span? = null
+    ) : Stmt
 }

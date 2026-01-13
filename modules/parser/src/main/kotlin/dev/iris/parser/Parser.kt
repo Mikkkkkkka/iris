@@ -2,7 +2,7 @@ package dev.iris.parser
 
 import dev.iris.core.Diagnostic
 import dev.iris.core.Span
-import dev.iris.core.ast.PrintInt
+import dev.iris.core.ast.Stmt.PrintInt
 import dev.iris.core.ast.Program
 
 /**

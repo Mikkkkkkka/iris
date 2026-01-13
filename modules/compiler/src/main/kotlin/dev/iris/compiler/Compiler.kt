@@ -1,7 +1,7 @@
 package dev.iris.compiler
 
 import dev.iris.core.Diagnostic
-import dev.iris.core.ast.PrintInt
+import dev.iris.core.ast.Stmt.PrintInt
 import dev.iris.core.ast.Program
 import dev.iris.core.bytecode.BytecodeProgram
 import dev.iris.core.bytecode.Instr
