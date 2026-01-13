@@ -29,3 +29,8 @@ Run a file:
 ```bash
 ./gradlew :cli:run --args="examples/hello.is"
 ```
+
+## Documentation
+
+- [Language Specification](docs/language-spec.md) — Синтаксис языка IRIS
+- [Current Implementation](docs/current-implementation.md) — Описание текущей реализации проекта (Russian)
